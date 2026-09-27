@@ -4,7 +4,6 @@
 
 **Student Name:** Abdalla Mohamed Nieam
 **Platform:** Huawei eNSP
-**Task:** Task 3
 
 ---
 
@@ -76,7 +75,7 @@ The HRP heartbeat is configured through:
 
 `GE 1/0/3`
 
-This allows the firewalls to synchronize information such as session and state information.
+This allows the firewalls to synchronize session and state information.
 
 ---
 
@@ -172,40 +171,6 @@ After the failure, **FW2** took over the active role through the configured VRRP
 
 ---
 
-## 📸 Lab Screenshots
-
-### 🔹 Huawei eNSP Topology
-
-The following screenshot shows the complete network topology implemented in Huawei eNSP.
-
-![Huawei eNSP Topology](./images/topology.png)
-
-### 🔹 Firewall Configuration
-
-This screenshot shows the firewall configuration used in the lab.
-
-![Firewall Configuration](./images/firewall-configuration.png)
-
-### 🔹 VRRP & HRP
-
-This screenshot demonstrates the High Availability configuration between FW1 and FW2.
-
-![VRRP and HRP](./images/vrrp-hrp.png)
-
-### 🔹 NAT Configuration
-
-This screenshot shows the Source NAT and Static NAT configuration.
-
-![NAT Configuration](./images/nat.png)
-
-### 🔹 Verification
-
-The following screenshot shows the verification commands and connectivity tests.
-
-![Verification](./images/verification.png)
-
----
-
 ## 📁 Repository Files
 
 ### 📄 Complete Report
@@ -244,9 +209,3 @@ Contains the Huawei eNSP topology and project files.
 Network & Security Engineer
 
 GitHub: [@Abdallanieam](https://github.com/Abdallanieam)
-
----
-
-## ⭐ Project Summary
-
-This lab demonstrates a practical Huawei Firewall implementation combining **High Availability, VRRP, HRP, Network Address Translation, DMZ services, and connectivity testing** in a simulated enterprise network environment.
